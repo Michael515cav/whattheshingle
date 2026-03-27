@@ -256,7 +256,7 @@ Schema:
     try {
       const res = await fetch('https://api.anthropic.com/v1/messages', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', 'x-api-key': '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', 'anthropic-version': ,2023-06-01' },
         body: JSON.stringify({
           model: 'claude-sonnet-4-20250514',
           max_tokens: 1000,
